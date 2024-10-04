@@ -1,0 +1,59 @@
+/* styles.css */
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    flex-direction: column; /* Align items vertically */
+    gap: 20px; /* Spacing between elements */
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text within container */
+  }
+  
+  .pill-select {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .pill-select select {
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    appearance: none; /* Remove default arrow */
+    cursor: pointer;
+  }
+  
+  .pill-options {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .pill-option {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 200px; /* Fixed width for the pill options */
+    text-align: center; /* Center text within pill option */
+  }
+  
+  .pill-option:hover {
+    background-color: #d0d0d0;
+  }
